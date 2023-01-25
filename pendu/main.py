@@ -26,5 +26,3 @@ if __name__ == "__main__":
     else:
         print("Désolé, vous avez perdu. Le mot était", jeu["mot"])
 
-
-d
