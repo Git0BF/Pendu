@@ -22,7 +22,7 @@ if __name__ == "__main__":
             print("Il vous reste", jeu["erreurs_restantes"], "erreurs.")
 
     if controller.jeux_complet(jeu):
-        print("Félicitations, vous avez gagné!")
+        print("Félicitations, vous avez gagné!Le mot était bien", jeu["mot"])
     else:
         print("Désolé, vous avez perdu. Le mot était", jeu["mot"])
 
